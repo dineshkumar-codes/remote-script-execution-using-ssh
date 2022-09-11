@@ -14,4 +14,4 @@ sshpass -p $password ssh -o StrictHostKeyChecking=no $username@$ip_address <<EOF
 sudo apt update -y  
 sudo apt upgrade -y
 EOF
-#Mention the scripts that you want to execute <<EOF "script" EOF 
+#Mention the scripts <<EOF "script" EOF that you want to execute on the remote device
