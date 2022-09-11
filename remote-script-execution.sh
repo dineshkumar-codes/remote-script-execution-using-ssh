@@ -11,6 +11,6 @@ read -p "Enter ipaddress:" ip_address
 
 #access remote device and executes script
 sshpass -p $password ssh -o StrictHostKeyChecking=no $username@$ip_address <<EOF 
-#Mention the scripts here that you want to execute on the remote device
+#Mention the script/command here that you want to execute on the remote device
 EOF
 
