@@ -1,8 +1,9 @@
 # remote-script-execution
-
-Using this script you can execute commands on remote devices
+## Overview
+Using this script you can execute commands/scripts on a remote device via ssh
 
 1. Download remote-script-execution.sh file
-2. Add the commands/script under <<EOF "script/command" EOF that you want to execute
-3. Give executable permission chmod +x remote-script-execution.sh
+2. Add the commands/script under **_<<EOF "script/command" EOF_** that you want to execute
+3. Give executable permission _**chmod +x remote-script-execution.sh**_
+5. Run _**./remote-script-execution.sh**_
 
